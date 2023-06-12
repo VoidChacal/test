@@ -1,0 +1,27 @@
+==========<cstdio>==========
+------File access------
+fopen "opens a file"
+freopen "open an existing stream with a diferrent name"
+fclose "closes a file"
+------Direct input/output------
+fread "reads from a file"
+fwrite "writes to a file"
+------Unformatted input/output------
+fgetc/getc "gets a character from a file stream"
+fgetc "gest a character string to a file stream"
+fputs "writes a character string to a file stream"
+getchar "reads a character from stdin"
+------File positioning------
+ftell "returns the current file position indicator"
+fgetpos "gets the file position indicator"
+fseek "moves the file position indicator to a specific location in a file"
+fsetpos "moves the file position indicator to a specific location in a file"
+------Error handling------
+clearerr "clears errors"
+ferror "checks for a file error"
+perror "displays a character string corresponding of the current error to stderr"
+------Operations on files------
+remove "erases a file"
+rename "renames a file"
+tmpfile "creates and opens a temporary, auto-removing file"
+tmpnam "returns a unique filename"
